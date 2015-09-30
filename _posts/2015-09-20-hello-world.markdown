@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Announcing Open Infrastructure Services, LLC"
+author: "Jeff McCune"
 date:   2015-09-20 18:33:10
 categories: update company
 ---
