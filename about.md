@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "About Open Infrastructure Services"
+description: "We help build app services in the cloud"
 header-img: "img/about-bg.jpg"
 ---
 
@@ -9,7 +9,8 @@ header-img: "img/about-bg.jpg"
 
 Open Infrastructure Services provides a wide range of IT infrastructure
 consulting services.  Please contact [Jeff McCune][jeff] for more information
-about how we can help you overcome your infrastructure challenges.
+about how we can help you overcome your infrastructure challenges as consider
+utilizing the cloud for your next project or endeavour.
 
 Specializing in Puppet configuration management, Ruby, Python, Golang, Jenkins,
 Continuous Delivery, Service Oriented Architecture, and micro-services.  I'm
