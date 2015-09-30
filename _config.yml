@@ -1,18 +1,19 @@
 # Site settings
-title: Clean Blog
+title: Open Infrastructure Services, LLC
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
-
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
+email: jeff@openinfrastructure.co
+description: > # this means to ignore newlines until "baseurl:"
+  Open Infrastructure Services, LLC provides IT infrastructure consulting
+  services.  Founded by Jeff McCune, an experienced Linux systems administrator
+  and software developer with over a 10 years of industry experience.
+  Specializing in Puppet, service oriented architecture, agile methodologies,
+  and DevOps practices.
+baseurl: ""
+url: "https://www.openinfrastructure.co"
+twitter_username: "0xEFF"
+github_username: jeffmccune
+facebook_username: jeffmccune
+email_username: jeff@openinfrastructure.co
 # google_tracking_id:
 
 # Build settings
