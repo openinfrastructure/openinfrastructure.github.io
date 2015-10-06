@@ -59,6 +59,9 @@ from delivering your applications.
 [facter]: http://github.com/puppetlabs/facter
 [puppet-server]: http://github.com/puppetlabs/puppet-server
 [pro-puppet-img]: /img/pro-puppet.jpg
+[puppetlabs]: https://puppetlabs.com
+[pro-puppet]: http://www.amazon.com/Pro-Puppet-James-Turnbull/dp/1430230592
 [ntst]: http://www.ntst.com
 [splunk]: http://www.splunk.com
 [contact]: /contact/
+[cfengine]: http://cfengine.com/
