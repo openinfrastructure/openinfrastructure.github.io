@@ -1,0 +1,18 @@
+<div class="post-preview">
+{% if post.title %}
+<h1>
+<a href="{{ root_url }}{{ post.url }}">
+{{ post.title }}
+</a>
+</h1>
+{% endif %}
+{% if post.subtitle %}
+<h2>
+{{ post.subtitle }}
+</h2>
+{% endif %}
+<p class="post-meta">
+Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+</p>
+</div>
+<div class="entry-content">{{ content }}</div>

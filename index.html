@@ -3,7 +3,23 @@ layout: page
 description: "Devops & Cloud Infrastructure Consulting"
 ---
 
+<div class="post">
+  {% assign post = site.posts.first %}
+  {% assign content = post.content %}
+  {% include post_detail.html %}
+</div>
+
 {% for post in paginator.posts %}
+  <!-- Skip over the first post we just displayed above -->
+  {% if forloop.first == true %}
+    {% continue %}
+  {% endif %}
+
+  <!-- If there are more posts, display the previous posts separator -->
+  {% if forloop.index0 == 1 %}
+  <hr><h1>Previous Posts</h1><hr>
+  {% endif %}
+
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
