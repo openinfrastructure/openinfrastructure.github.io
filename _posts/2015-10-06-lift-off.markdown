@@ -55,10 +55,6 @@ Please [contact me][contact] if you have a need for professional, intelligent
 and creative solutions to the infrastructure problems that are holding you back
 from delivering your applications.
 
-<p>Want to stay in touch and up to date?  Sign up for the newsletter!</p>
-
-<iframe src="https://docs.google.com/forms/d/1E04ZGjEdHvyhdO1IFirQnAWL6lEvnWXvw8wRsJJZMBU/viewform?embedded=true" width="700" height="590" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
 [jeff]: https://about.me/jeffmccune
 [avatar]: http://gravatar.com/avatar/00224978b1eb94cb7ab8c3bf45788540.jpg?size=200
 [puppet]: http://github.com/puppetlabs/puppet
