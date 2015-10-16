@@ -56,7 +56,7 @@ and creative solutions to the infrastructure problems that are holding you back
 from delivering your applications.
 
 [jeff]: https://about.me/jeffmccune
-[avatar]: http://gravatar.com/avatar/00224978b1eb94cb7ab8c3bf45788540.jpg?size=200
+[avatar]: /img/jeff-200.jpg
 [puppet]: http://github.com/puppetlabs/puppet
 [facter]: http://github.com/puppetlabs/facter
 [puppet-server]: http://github.com/puppetlabs/puppet-server
