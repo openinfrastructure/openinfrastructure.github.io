@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/jeffmccune
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://openinfrastructure.co
+  * I am jeffmccune (https://keybase.io/jeffmccune) on keybase.
+  * I have a public key with fingerprint 3C4D FC77 5D56 A49A 64CD  BE7A A8D0 1865 9619 0B44
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101f670d88a95e0b932a14c4ab7a50f3f27af4fcf614f1a75f0ce8ebe6f5a21c5490a",
+            "fingerprint": "3c4dfc775d56a49a64cdbe7aa8d0186596190b44",
+            "host": "keybase.io",
+            "key_id": "a8d0186596190b44",
+            "kid": "0101f670d88a95e0b932a14c4ab7a50f3f27af4fcf614f1a75f0ce8ebe6f5a21c5490a",
+            "uid": "ccbb0c763224ee37a9015387921fdc00",
+            "username": "jeffmccune"
+        },
+        "service": {
+            "hostname": "openinfrastructure.co",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1455228772,
+    "expire_in": 157680000,
+    "prev": "86d15a845255c14a1bbbc9a17ec1b911a0362cceae32be43c770f4819dbf3ce4",
+    "seqno": 27,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtkm1QVFUYx2EpTAl3hcFYBdmuTjHEwH2/dxeTTCKn1BlRyHzbOffcc/EK7F3u
+Li9KJIupiDIkSKGNoSEDJRaECM3wKhEQpOVYpDhpLzvGICBgZlMN3cvYtz52vpw5
+z/z+//N/nnPeDvTzMfjWfR2K3jEHJPgOjgo+Ke3zjudhgiLuwWx5WBqa21C6iFxu
+e5osYjYMJ3BCYjlc5HlgZRAuWCkSEDSkgcABBpcoieSAREtQYglaIgDHSDhEPBIQ
+KzGAJCBDW3GARWOS7EhFqlOVHW7NloK0KEGOY0SGBbQVsDQUBcQBwIs4wbOMlSWs
+uEDTmnCX4tIVWjgBuFCMrGg17WCfi/cf/P+cO2vODkJBwCHHUiRJI0RxwIoTDMVz
+VpKQRIjjOuhCqgNkII3ejSQpA8IsB8LyozGtni1DpI9W7+URoziRQ3ZIKnC51Szo
+zlJRDNRbc6qKW4FKuobscrudLptu4d7j1DU5SLA/crMLskPURqopspHqkhUHZiM0
+Erpl3Z6gGYYkeY4jozGU65RVZJd1guFYHteWfg8SszVPnhUJBvA0QzIMJGhACIIA
+rYDgECQEK0EAnGJJCBFAFCkgmtIeDZdonrCKgkRBpE/chTIdCmYjOS0oSNU8XXKq
+A+gtYfkLDhvCHvPxNfj4P27Qf5vPgvmmf79gbrBxVlkLh+/Vv2dMrPjzUl850325
+I8l34i/3r2MDO5T7CbnbbuWdPbahf0ns6XWnDyXFWsb9vcHFn64urA0wXVvkbFns
++e2A1/tybVSIuSYFlLx/g21TLDly+C9lHscfoR3rrr856w3INU70Bz7bYc57vVlN
+CLfUFA9Xm2f6Nk/2l27LOXfyULolqKVzsNJ+Zm+l9437HxtDvBddhc9VT5UW9Vzc
+V843Rpg8sC1nTSkV0niNsle7ChrefWYsMvH4jLlq6IPSvcqXNpv9Tl3E+qZ7nzPG
+qCWxk0XmyB8a1k/dPZE8Y+z/cOt89XBQy82RkCuDG8NgaJfkKTYl/Xhqh+fyZ2mT
+q0OP3HjKMvaaqe7n4N5zawJqe7Z88erSq+2TNzOqph8Yb0f3Vrv6r9uYnc1B0a1D
+MYbaok53/Mj25V1rY+orWj3dYZbCY/6rXnJ852cp/+pC3IXAB68MbjpaUxK2v+n2
+yNRPfk/Hz3vYNLA97m4E/dGmjU92PhFCq+SLv9cOl52klLpPJhYW3InqLGhObgh+
+K273QOv+VSuuBh3oGdlS6ZdS9Lxz6cTZ82bzrZVxSmRSsunbxvOqEMudaQ9rOzUb
+CyJTuy7x4MTEzoOGqbR9RxZ+bxzNLwlfvOjvhwdNvvHlFd0ZJQ3TmaPTM4nqN929
+y3OvLJsaH+rL2Ty+zK+qPnPF1tIXajasLOv+Bw==
+=XigB
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jeffmccune
+
+==================================================================
+
