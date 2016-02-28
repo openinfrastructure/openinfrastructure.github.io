@@ -16,6 +16,7 @@ and solutions focused on delivering applications more quickly, reliably and
 predictably.
 
 ![Jeff McCune][avatar]
+![Open Infrastructure Services Logo][logo]
 
 Open Infrastructure Services is founded by me, [Jeff McCune][jeff], a veteran
 systems administrator and software developer with over 15 years of experience.
@@ -65,3 +66,4 @@ from delivering your applications.
 [splunk]: http://www.splunk.com
 [contact]: /contact/
 [cfengine]: http://cfengine.com/
+[logo]: /img/logo-192.png
