@@ -16,6 +16,7 @@ and solutions focused on delivering applications more quickly, reliably and
 predictably.
 
 ![Jeff McCune][avatar]
+
 ![Open Infrastructure Services Logo][logo]
 
 Open Infrastructure Services is founded by me, [Jeff McCune][jeff], a veteran
@@ -56,6 +57,7 @@ from delivering your applications.
 
 [jeff]: https://about.me/jeffmccune
 [avatar]: /img/jeff-200.jpg
+[logo]: /img/logo-192.png
 [puppet]: http://github.com/puppetlabs/puppet
 [facter]: http://github.com/puppetlabs/facter
 [puppet-server]: http://github.com/puppetlabs/puppet-server
@@ -66,4 +68,3 @@ from delivering your applications.
 [splunk]: http://www.splunk.com
 [contact]: /contact/
 [cfengine]: http://cfengine.com/
-[logo]: /img/logo-192.png
