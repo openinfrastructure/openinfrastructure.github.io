@@ -21,6 +21,10 @@ email_username: jeff@openinfrastructure.co
 gems: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
 permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num/"

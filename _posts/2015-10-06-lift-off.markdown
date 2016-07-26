@@ -3,7 +3,6 @@ layout: post
 title:  "Lift Off!"
 author: jeff
 date:   2015-10-06 13:39:00
-categories: update company
 ---
 
 3.. 2.. 1.. Lift Off!
