@@ -1,0 +1,27 @@
+<!-- Look the author details up from the site config. -->
+{% assign author = site.data.authors[post.author] %}
+
+<article>
+  <header>
+    <div class="post-preview">
+      {% if post.title %}
+      <h1>
+        <a href="{{ root_url }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      {% endif %}
+      {% if post.subtitle %}
+      <h2>
+        {{ post.subtitle }}
+      </h2>
+      {% endif %}
+      <p class="post-meta">
+      Posted by {% if author %}{{ author.name }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+      </p>
+    </div>
+  </header>
+  <div class="entry-content">
+    {{ post.content }}
+  </div>
+</article>

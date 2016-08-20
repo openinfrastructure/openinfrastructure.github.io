@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Tech Articles"
+description: "Thoughts from the field"
+header-img: img/about-bg.jpg
+author: jeff
+---
+
+{% for post in paginator.posts %}
+{% include post_body.html %}
+<hr>
+{% endfor %}
+
+<!-- Pagination links -->
+<ul class="pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Previous</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &rarr;</a>
+  </li>
+  {% endif %}
+</ul>

@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Logo"
-author: "Jeff McCune"
+description: "New company logo for Open Infrastructure Services"
+author: jeff
 date:   2016-02-27 17:53:00
 categories: update company
 ---
