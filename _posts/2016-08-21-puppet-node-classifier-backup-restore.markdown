@@ -183,4 +183,4 @@ issue on the project page.
 [puppet]: https://puppet.com/product
 [control-repo]: https://github.com/puppetlabs/control-repo
 [nc-api]: https://docs.puppet.com/pe/2016.2/nc_index.html
-[ncio]: https://github.com/openinfrastructure/ncio
+[ncio]: https://github.com/jeffmccune/ncio
