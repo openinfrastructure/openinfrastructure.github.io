@@ -26,12 +26,14 @@ all of these other resources.
 
 The [Node classification v1 API][nc-api] is an excellent mechanism to retrieve
 and restore node classification data, but the task of using the API is largely
-left as an exercise for the reader.  In an effort to help the customer fully
-automate the backup and restore, we wrote a small utility called `ncio` (node
-classification input / ouput) to help solve this problem.  If you'd like to
-easily get a dump of all node classification data in pretty-printed JSON,
-transform a backup for restoration on a different PE Monolithic Master, or
-restore a backup then this tool is for you.
+left as an exercise for the reader.  In order to help with this common problem,
+I wrote a small utility called ncio (node classification input / ouput). If
+you'd like to easily get a dump of all node classification data in
+pretty-printed JSON, transform a backup for restoration on a different PE
+Monolithic Master, or restore a backup then this tool is for you.
+
+The tool is distributed and updated on [rubygems][ncio-gem] in an effort to make
+it easiy to install and upgrade in the future.
 
 Here's how to get started:
 
@@ -184,3 +186,4 @@ issue on the project page.
 [control-repo]: https://github.com/puppetlabs/control-repo
 [nc-api]: https://docs.puppet.com/pe/2016.2/nc_index.html
 [ncio]: https://github.com/jeffmccune/ncio
+[ncio-gem]: https://rubygems.org/gems/ncio/
