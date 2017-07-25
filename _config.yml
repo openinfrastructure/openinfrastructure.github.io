@@ -15,7 +15,7 @@ github_username: jeffmccune
 facebook_username: mccune.jeff
 linkedin_username: jeffmccune
 email_username: jeff@openinfrastructure.co
-# google_tracking_id:
+google_tracking_id: UA-67853681-1
 
 # Build settings
 gems: [jekyll-paginate]
