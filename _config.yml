@@ -25,9 +25,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   hard_wrap: false
-permalink: pretty
+permalink: /news/:title/
 paginate: 5
-paginate_path: "/blog/page:num/"
+paginate_path: "/news/page:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]

@@ -42,9 +42,9 @@ hr.small {
   border-color: white;
 }
 .navbar-custom {
-  background: rgba(0,0,0,0.6);
+  background: rgba(255,255,255,0.95);
   border-color: transparent;
-  color: white;
+  color: #404040;
   z-index: 200;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -57,7 +57,7 @@ hr.small {
   font-weight: 800;
 }
 .navbar-custom .nav li a {
-  color: white;
+  color: #404040;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -65,24 +65,24 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    border-bottom: 1px solid transparent;
+    border-bottom: 1px solid;
   }
   .navbar-custom .navbar-brand {
     display: inline;
-    color: white;
+    color: #404040;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #404040;
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: #404040;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: #404040;
   }
 }
 @media only screen and (min-width: 1170px) {
