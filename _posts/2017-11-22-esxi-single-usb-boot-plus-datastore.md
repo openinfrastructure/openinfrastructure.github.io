@@ -37,7 +37,7 @@ To quickly get a Ubuntu desktop up and running, use vagrant:
 
 Patch the vagrant file to get the GUI:
 
-```diff
+```
 --- Vagrantfile.orig    2017-11-22 16:03:04.000000000 -0800
 +++ Vagrantfile 2017-11-22 16:04:49.000000000 -0800
 @@ -57,4 +57,8 @@
@@ -139,7 +139,7 @@ cp -p esxi.txt esxi.txt.orig
 
 Change `esxi.txt` as the following diff shows, moving partition 2 to 10.
 
-```diff
+```
 --- esxi.txt.orig       2017-11-23 00:13:57.561990531 +0000
 +++ esxi.txt    2017-11-23 00:15:35.566968530 +0000
 @@ -7,5 +7,4 @@
