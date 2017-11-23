@@ -15,7 +15,7 @@ I was able to install ESXi 6.5 onto the USB thumb drive, but nothing shows up as
 an available data store for virtual machines.  There's a ton of free space on
 the USB stick.  We can make use of this space with some partitioning magic.
 
-![ESX Data Stores](/img/2017-11-22-esxi-tiny-usb/04.png)
+![ESX Data Stores](/img/2017-11-22-esxi-single-usb-boot-plus-datastore/04.png)
 
 I'm doing this all with a Mac OS X workstation.  I'll use a Ubuntu 16.04
 VirtualBox instance to partition the USB stick.  We'll format the filesystem on
@@ -87,11 +87,11 @@ Log in as ubuntu with the password just set.  Open a terminal with `ctrl` +
 Use `sudo gparted` to create a new partition in the free space.  Make sure to create
 it as unformatted, not the default of ext4.
 
-![Create New Partition](/img/2017-11-22-esxi-tiny-usb/01.png)
+![Create New Partition](/img/2017-11-22-esxi-single-usb-boot-plus-datastore/01.png)
 
 Note the partition number, it should be partition 2, e.g. `/dev/sdc2`.
 
-![Note Partition Number](/img/2017-11-22-esxi-tiny-usb/02.png)
+![Note Partition Number](/img/2017-11-22-esxi-single-usb-boot-plus-datastore/02.png)
 
 Use `sudo gdisk /dev/sdc` to change the partition type to `fb00`.  The sequence here is:
 
@@ -198,8 +198,10 @@ Successfully created new volume: 5a1614ce-846cd3c8-9b10-0cc47aaaf624
 
 The partition now shows up in the datastore browser after a refresh.
 
-![ESX Data Stores](/img/2017-11-22-esxi-tiny-usb/05.png)
+![ESX Data Stores](/img/2017-11-22-esxi-single-usb-boot-plus-datastore/05.png)
 
-Configure a [persistent scratch location][scratch] on the USB storage and enjoy!
+Configure [swap][swap], a [persistent scratch location][scratch], and virtual machines
+on the same USB drive ESX is booting from, and enjoy!
 
 [scratch]: https://kb.vmware.com/s/article/1033696
+[swap]: https://labs.vmware.com/vmtj/vmware-esx-memory-resource-management-swap
