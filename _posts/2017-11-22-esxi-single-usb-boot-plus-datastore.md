@@ -3,7 +3,7 @@ layout: post
 title:  "ESXi 6.5 Single USB Thumb Drive"
 description: "Make full use of a single USB thumb drive with ESXi 6.5"
 author: jeff
-date:   2017-10-21 12:06:00
+date:   2017-11-22 15:06:00
 ---
 
 I have a goal of booting an ESXi host from a single 32GB USB thumb drive.  No
