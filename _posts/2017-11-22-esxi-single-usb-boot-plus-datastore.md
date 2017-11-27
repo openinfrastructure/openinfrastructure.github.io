@@ -79,7 +79,7 @@ Set a password for the user `ubuntu`:
 
 Reboot again to get the desktop up and running.
 
-    vagrant ssh -- shutdown -r now
+    vagrant ssh -- sudo shutdown -r now
 
 Log in as ubuntu with the password just set.  Open a terminal with `ctrl` +
 `alt` + `t`.
