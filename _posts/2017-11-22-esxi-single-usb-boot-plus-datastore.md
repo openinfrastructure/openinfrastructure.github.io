@@ -67,11 +67,11 @@ into VirtualBox settings.
 
 Install the Ubuntu Desktop:
 
-    vagrant ssh -- sudo apt-get install --no-install-recommends ubuntu-desktop
+    vagrant ssh -- sudo apt-get install -y --no-install-recommends ubuntu-desktop
 
 Install gparted
 
-    vagrant ssh -- sudo apt-get install gparted
+    vagrant ssh -- sudo apt-get install -y gparted
 
 Set a password for the user `ubuntu`:
 
