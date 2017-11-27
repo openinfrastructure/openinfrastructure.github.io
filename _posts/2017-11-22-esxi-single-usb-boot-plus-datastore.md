@@ -57,7 +57,7 @@ Bring up the vagrant instance:
 
 Shutdown the instance and add USB to the virtual machine:
 
-    vagrant ssh sudo shutdown -h now
+    vagrant ssh -- sudo shutdown -h now
 
 Go into VirtualBox Settings => Ports => Add a USB EHCI controller.  Add a filter
 for the USB thumb drive.  This is important, otherwise the USB thumb drive won't
@@ -67,19 +67,19 @@ into VirtualBox settings.
 
 Install the Ubuntu Desktop:
 
-    vagrant ssh sudo apt-get install --no-install-recommends ubuntu-desktop
+    vagrant ssh -- sudo apt-get install --no-install-recommends ubuntu-desktop
 
 Install gparted
 
-    vagrant ssh sudo apt-get install gparted
+    vagrant ssh -- sudo apt-get install gparted
 
 Set a password for the user `ubuntu`:
 
-    vagrant ssh sudo passwd ubuntu
+    vagrant ssh -- sudo passwd ubuntu
 
 Reboot again to get the desktop up and running.
 
-    vagrant ssh shutdown -r now
+    vagrant ssh -- shutdown -r now
 
 Log in as ubuntu with the password just set.  Open a terminal with `ctrl` +
 `alt` + `t`.
@@ -102,7 +102,7 @@ Use `sudo gdisk /dev/sdc` to change the partition type to `fb00`.  The sequence 
  4. `Y`
 
 ```
-vagrant ssh sudo gdisk /dev/sdc
+vagrant ssh -- sudo gdisk /dev/sdc
 GPT fdisk (gdisk) version 1.0.1
 
 Partition table scan:
