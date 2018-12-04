@@ -12,7 +12,7 @@ Open Infrastructure Services is hiring!  We have a number of exciting projects
 on the horizon and are looking for talented infrastructure engineers.  If you're
 experienced with, or have an interest in cloud infrastructure automation and
 helping customers migrate their data center workloads to the public cloud,
-please send an email to [jobs@openinfrastructure.co][jobs].  We'd love to talk
+please send an email to [careers@openinfrastructure.co][careers].  We'd love to talk
 to you about these exciting opportunities!
 
 These projects are focused on large enterprise datacenter migrations to the
@@ -27,5 +27,5 @@ Apply online now: [Employment Application][employment-application].
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScmmaD18PNg7H9UWqhfkgmqKYAA2AeWGSwjEt62JTRI8KOM5A/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-[jobs]: mailto://jobs@openinfrastructure.co
+[careers]: mailto://careers@openinfrastructure.co
 [employment-application]: https://docs.google.com/forms/d/e/1FAIpQLScmmaD18PNg7H9UWqhfkgmqKYAA2AeWGSwjEt62JTRI8KOM5A/viewform?usp=sf_link
