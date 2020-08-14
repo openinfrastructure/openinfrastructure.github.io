@@ -11,8 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://www.openinfrastructure.co"
 twitter_username: "0xEFF"
-github_username: jeffmccune
-facebook_username: mccune.jeff
+github_username: openinfrastructure
 linkedin_username: jeffmccune
 email_username: jeff@openinfrastructure.co
 google_tracking_id: UA-67853681-1
