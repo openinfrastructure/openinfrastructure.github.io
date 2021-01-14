@@ -65,14 +65,20 @@
           "matcher": {
             "description": "Match nodes to other things, primarily intended for scheduled failure domains.",
             "oneOf": [
-              {"$ref": "#/components/schemas/varMatcher" },
-              {"$ref": "#/components/schemas/allMatcher" }
+              {
+                "$ref": "#/components/schemas/varMatcher"
+              },
+              {
+                "$ref": "#/components/schemas/allMatcher"
+              }
             ]
           },
           "schedule": {
             "type": "object",
             "description": "Model a Schedule and associated FailureDomains",
-            "required": ["data"],
+            "required": [
+              "data"
+            ],
             "additionalProperties": true,
             "properties": {
               "kind": {
@@ -85,12 +91,14 @@
               "data": {
                 "type": "object",
                 "description": "Data intended for Ic::Schedule.new",
-                "required": [ "name" ],
+                "required": [
+                  "name"
+                ],
                 "additionalProperties": false,
                 "properties": {
                   "name": {
                     "type": "string",
-                    "pattern": "^[a-z][a-z0-9_]{0,63}$"
+                    "pattern": "^[a-z][a-z0-9_.]{0,63}$"
                   },
                   "soak_time": {
                     "type": "string",
@@ -106,8 +114,12 @@
           },
           "failure_domains": {
             "oneOf": [
-              { "$ref": "#/components/schemas/membershipFailureDomain" },
-              { "$ref": "#/components/schemas/thresholdFailureDomain" }
+              {
+                "$ref": "#/components/schemas/membershipFailureDomain"
+              },
+              {
+                "$ref": "#/components/schemas/thresholdFailureDomain"
+              }
             ]
           }
         }
@@ -136,7 +148,9 @@
             "type": "string",
             "description": "Type hint for Puppet initializer",
             "default": "var",
-            "enum": ["var"]
+            "enum": [
+              "var"
+            ]
           },
           "priority": {
             "type": "integer",
@@ -180,7 +194,9 @@
             "type": "string",
             "description": "Type hint for Puppet initializer",
             "default": "all",
-            "enum": ["all"]
+            "enum": [
+              "all"
+            ]
           },
           "priority": {
             "type": "integer",
@@ -205,7 +221,9 @@
           "kind": {
             "type": "string",
             "default": "membership",
-            "enum": ["membership"]
+            "enum": [
+              "membership"
+            ]
           },
           "data": {
             "type": "object",
@@ -240,12 +258,16 @@
           "kind": {
             "type": "string",
             "default": "threshold",
-            "enum": ["threshold"]
+            "enum": [
+              "threshold"
+            ]
           },
           "data": {
             "type": "object",
             "description": "Data passed to Ic::Failure_domains::Threshold.new()",
-            "required": ["boarding_groups"],
+            "required": [
+              "boarding_groups"
+            ],
             "additionalProperties": false,
             "properties": {
               "boarding_groups": {
