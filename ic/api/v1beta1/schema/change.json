@@ -4,7 +4,20 @@
   "description": "Data necessary to call the ic::change::json() function for a change scheduled over failure domains.",
   "type": "object",
   "additionalProperties": true,
+  "required": [
+    "change",
+    "schedules"
+  ],
   "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "The schema of this representation, intended for vscode and validation.",
+      "format": "uri"
+    },
+    "apiVersion": {
+      "type": "string",
+      "description": "The API version which produced this representation.  Compatibility hint for consumers."
+    },
     "change": {
       "description": "The overall change governing one or more state transitions scheduled over failure domains.",
       "type": "object",
@@ -33,7 +46,7 @@
               "default": false
             },
             "backout_state": {
-              "description": "The state to enforce of backout is true.  Typically state a but a separate backout state may be fined, for example to ensure a file is absent instead of not managed.",
+              "description": "The state to enforce of backout is true.  Typically state a but a separate backout state may be defined, for example to ensure a file is absent instead of not managed.  Possible values are 'a', 'b', or 'backout'",
               "type": "string",
               "default": "a",
               "enum": [
