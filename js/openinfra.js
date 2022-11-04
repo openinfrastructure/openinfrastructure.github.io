@@ -1061,3 +1061,12 @@ $(function() {
     })
 
 })(jQuery); // End of use strict
+
+// Headroom https://wicky.nillia.ms/headroom.js/
+// grab an element
+var mainNav = document.querySelector("nav");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(mainNav, {
+    "offset": 100
+});
+headroom.init();
