@@ -1,3 +1,4 @@
+---
 # Site settings
 title: Open Infrastructure Services, LLC
 header-img: img/home-bg.jpg
@@ -17,7 +18,7 @@ email_username: jeff@openinfrastructure.co
 google_tracking_id: UA-67853681-1
 
 # Build settings
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate, jekyll-feed]
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -27,6 +28,4 @@ kramdown:
 permalink: /news/:title/
 paginate: 5
 paginate_path: "/news/page:num/"
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-
-gems: [jekyll-paginate, jekyll-feed]
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
