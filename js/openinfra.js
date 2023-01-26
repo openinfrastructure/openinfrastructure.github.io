@@ -33,7 +33,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//formspree.io/info+website@openinfrastructure.co",
+                url: "//formspree.io/f/xayzqnpq",
                 type: "POST",
                 data: {
                     name: name,
