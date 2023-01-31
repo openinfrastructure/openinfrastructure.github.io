@@ -23,7 +23,7 @@ Optimized Puppetserver infrastructure resulting in a ~50% reduction in server co
 * Developed a caching layer that, combined with configuration tuning, resulted in the elimination of Puppetserver death spirals.
 * Developed a Systemd-based solution for running multiple Puppetserver processes on a bare-metal host.
 
-Developed a cloud-based visibilty solution for tracking Puppet resource changes at a scale of millions per-day.
+Developed a cloud-based visibility solution for tracking Puppet resource changes at a scale of millions per-day.
 
 <h2 class="section-heading text-center">Testimonials</h2>
 
