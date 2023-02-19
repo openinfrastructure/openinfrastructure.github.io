@@ -1,0 +1,3 @@
+docker build --tag quay.io/openinfra/website:latest -f Dockerfile.nginx .
+docker push quay.io/openinfra/website:latest
+KUBECONFIG=${HOME}/.kube/core1 kubectl -n website rollout restart deployment website

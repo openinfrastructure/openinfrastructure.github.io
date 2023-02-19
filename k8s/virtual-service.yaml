@@ -1,0 +1,15 @@
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: ois-run-vs
+spec:
+  hosts:
+    - ois.run
+    - www.ois.run
+  gateways:
+    - istio-ingress/ois-run-gw
+  http:
+    - route:
+        - destination:
+            host: website

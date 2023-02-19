@@ -1,0 +1,16 @@
+FROM klakegg/hugo:ext-alpine as builder
+
+RUN apk add git && \
+  git config --global --add safe.directory /src
+
+COPY . /src/
+
+RUN hugo
+
+FROM nginx:stable
+
+ENV NGINX_HOST=localhost
+ENV NGINX_PORT=80
+
+COPY nginx/templates/ /etc/nginx/templates/
+COPY --from=builder /src/public/ /usr/share/nginx/html/

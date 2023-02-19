@@ -1,0 +1,33 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: ois-run-cert
+  namespace: istio-ingress
+spec:
+  secretName: ois-run-cert
+  issuerRef:
+    name: letsencrypt
+    kind: ClusterIssuer
+  commonName: ois.run
+  dnsNames:
+    - ois.run
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: ois-run-gw
+  namespace: istio-ingress
+spec:
+  selector:
+    istio: ingressgateway
+  servers:
+  - port:
+      number: 443
+      name: http
+      protocol: HTTPS
+    tls:
+      mode: SIMPLE
+      credentialName: ois-run-cert # must be the same as secret in istio-namespace
+    hosts:
+    - ois.run
+    - www.ois.run
