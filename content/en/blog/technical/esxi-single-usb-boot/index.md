@@ -2,7 +2,7 @@
 date:   2017-11-22 15:06:00
 title:  "ESXi 6.5 Single USB Thumb Drive"
 description: "Make full use of a single USB thumb drive with ESXi 6.5"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 resources:
   - src: "**datastores*.png"
     title: "Empty ESX Data Stores"

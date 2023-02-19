@@ -2,7 +2,7 @@
 date:   2017-11-22 17:18:00
 title:  "Update ESXi 6.5 to U1 over SSH"
 description: "Overcome No space left on device by enabling swap"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 resources:
   - src: "**swap*.png"
     title: "Enable Swap"

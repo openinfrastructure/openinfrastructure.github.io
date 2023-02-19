@@ -20,6 +20,7 @@ enableGitInfo = true
 [taxonomies]
 tag = "tags"
 category = "categories"
+author = "authors"
 
 [params.taxonomy]
 # set taxonomyCloud = [] to hide taxonomy clouds

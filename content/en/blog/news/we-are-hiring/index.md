@@ -2,7 +2,7 @@
 date:   2018-04-18 12:00:00
 title:  "Help Wanted"
 description: "We're Hiring!"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 resources:
   - src: "**now-hiring*.jpg"
     title: "Now Hiring"

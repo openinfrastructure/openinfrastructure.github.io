@@ -1,7 +1,7 @@
 ---
 date:   2015-10-06 13:39:00
 title:  "Lift Off!"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 resources:
   - src: "**liftoff*.png"
     title: "Lift off!"

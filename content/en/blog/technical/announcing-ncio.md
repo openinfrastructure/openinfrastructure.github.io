@@ -3,7 +3,7 @@ date:   2016-08-21 12:48:00
 title:  "Puppet Enterprise Node Classification Backup & Restore with ncio"
 linkTitle: "Puppet Enterprise Node Classification Backup & Restore with ncio"
 description: "Utility to backup and restore PE Node Classification data"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 ---
 
 I'm happy to announce [ncio][ncio], a small command line utility to backup and

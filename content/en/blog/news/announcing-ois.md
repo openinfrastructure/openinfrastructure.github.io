@@ -2,7 +2,7 @@
 date: 2015-09-20 18:33:10
 title:  "Announcing Open Infrastructure Services, LLC"
 linkTitle:  "Announcing Open Infrastructure Services, LLC"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 ---
 
 Hello, World!

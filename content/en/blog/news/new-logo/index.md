@@ -2,7 +2,7 @@
 date:   2016-02-27 17:53:00
 title:  "Logo"
 description: "New company logo for Open Infrastructure Services"
-author: Jeff McCune ([jeff@openinfrastructure.co])
+authors: ["Jeff McCune"]
 resources:
   - src: "**logorectangle*.png"
     title: "New Logo"
