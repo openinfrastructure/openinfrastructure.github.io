@@ -1,11 +1,11 @@
 ---
-title: Puppet Open Source Support
-linkTitle: Open Source Support
-description: Puppet open source support and scaling
+title: Open-source Puppet Support
+linkTitle: Open-source Support
+description: Open-source Puppet support and scaling
 weight: 3
 ---
 
 Overview
 ---
 
-We provide support and services for Puppet open source.
+We provide support and services for open-source Puppet.
