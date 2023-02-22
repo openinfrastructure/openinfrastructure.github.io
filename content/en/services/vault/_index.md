@@ -1,7 +1,7 @@
 ---
 title: Hashicorp Vault
 linkTitle: Hashicorp Vault
-description: Reach out for help integrating Hasicorp Vault into your platform.
+description: Reach out for help integrating Hashicorp Vault into your platform.
 weight: 40
 ---
 
@@ -11,18 +11,18 @@ Overview
 At Open Infrastructure, we offer comprehensive Hashicorp Vault integration
 services to help our customers secure their infrastructure, applications, and
 data. Our team of experts has extensive experience in integrating Hashicorp
-Vault with various platforms and technologies, enabling our customers to manage
-their secrets, credentials, and encryption keys effectively.
+Vault into new and existing platforms, enabling our customers to quickly get
+value out of this best-in-class tool.
 
 Some of our Hashicorp Vault integration services include:
 
 Architecture Design
 ---
 
-Our team of experts will work with you to design and implement a Hashicorp Vault
-architecture that is tailored to your specific needs. We will help you choose
-the right deployment model, configure the appropriate backends, and set up the
-necessary policies and permissions.
+Our team of experts will work with you to design and implement a Hashicorp
+Vault architecture that is tailored to your specific needs while maintaining
+best practices. We will help you choose the right deployment model, configure
+the appropriate back ends, and set up the necessary policies and permissions.
 
 Authentication
 ---
@@ -30,7 +30,7 @@ Authentication
 We will work with you to implement an authentication method that works for your
 business. Want to use Puppet certificates to solve the Secret Zero problem?  Do
 you need to a secure CI pipeline that delivers authentication tokens directly to
-applications? We've done both and can help! 
+applications? We've done both and can help!
 
 Writing Authorization Policies
 ---
@@ -66,4 +66,3 @@ that meet your unique requirements. Contact us today to learn more about our
 Hashicorp Vault integration services and how we can help you secure your
 infrastructure and applications.
 
-<!-- {{/* Prompt: I own a consulting website called "Open Infrastructure", write a page describing a service we would offer for integrating Hashicorp Vault into our customer's platforms. Make sure to talk about integrating with Puppet for authentication and writing authorization policies.  */}} -->
