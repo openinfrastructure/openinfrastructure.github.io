@@ -1,3 +1,9 @@
 docker build --tag quay.io/openinfra/website:latest -f Dockerfile.nginx .
+
+# Push requries credentials, get them with:
+# docker login -u="openinfra+pusher" -p="$(vault kv get -format=json secret/deploy/quay/pusher | jq -r .data.data.password)" quay.io
 docker push quay.io/openinfra/website:latest
+
+# Restarting the deployment requires credentials, get them with:
+# ~/workspace/holos/workflows/scripts/kubeconfig-merge
 KUBECONFIG=${HOME}/.kube/core1 kubectl -n website rollout restart deployment website
