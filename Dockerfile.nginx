@@ -5,7 +5,9 @@ RUN apk add git && \
 
 COPY . /src/
 
-RUN hugo
+ENV HUGO_ENV="production"
+
+RUN hugo --gc
 
 FROM nginx:stable
 
