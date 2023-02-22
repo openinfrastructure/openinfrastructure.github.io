@@ -5,18 +5,23 @@ description: Incremental rollouts is a safer way to roll out production changes 
 weight: 1
 ---
 
-Overview
----
+## Customer Testimonial
+
+> "Open Infrastructure Services helped Twitter successfully perform a complete overhaul of it's production configuration management system. This started with addressing observability shortcomings and scalability bottlenecks, resulting in a 80% performance improvement. After attaining stability, Open Infrastructure delivered a safe change rollout feature, which enabled configuration changes to be deployed incrementally over time with detection of anomalies. The impact is that Twitter site incidents attributed to configuration changes, once a regular occurrence, have been virtually eliminated, with zero observed for one year as of September 2022."
+>
+> Patrick Newman, Sr Engineering Manager, Core Infrastructure Services SRE, 2019-2022
+
+## Overview
 
 Are Puppet code changes rolling out too fast for your organization? Have you
 experienced service degradation due to a Puppet code change that affected all
 of your managed nodes at once? Are you looking for a way to ensure Puppet code
 changes are enforced incrementally across successive failure domains?
 
-At Open Infrastructure, we designed an incremental rollout solution for a social
-media company with hundreds of thousands of managed nodes to guarantee that
-their critical Puppet code changes could not affect the entire fleet all at
-once.
+At Open Infrastructure Services, we designed an incremental rollout solution
+for a social media company with hundreds of thousands of managed nodes to
+guarantee that their critical Puppet code changes could not impact the entire
+fleet all at once.
 
 Our incremental rollout solution:
 
