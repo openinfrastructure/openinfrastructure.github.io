@@ -1,5 +1,5 @@
 baseurl = "https://openinfrastructure.co"
-title = "Open Infrastructure Services, LLC"
+title = "Open Infrastructure Services LLC"
 
 # Language settings
 contentDir = "content/en"
@@ -62,8 +62,8 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Open Infrastructure Services, LLC"
-description = "Open Infrastructure Services, LLC Website"
+title = "Open Infrastructure Services LLC"
+description = "Open Infrastructure Services LLC Website"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
