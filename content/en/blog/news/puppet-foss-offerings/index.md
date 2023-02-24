@@ -1,7 +1,7 @@
 ---
 title:  "New Puppet Service Offerings!"
 date:   2023-02-23 12:00:00
-description: "We offer you our Puppet expertise to help you meet your goals."
+description: "We offer dependable Puppet expertise to help you meet your goals."
 authors: ["Gary Larizza"]
 ---
 
