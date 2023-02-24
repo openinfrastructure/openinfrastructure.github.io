@@ -53,10 +53,9 @@ Do you have problems answering some of these questions with your Puppet deployme
 * Are any nodes experiencing compilation failures and thus are no longer enforcing resource changes?
 
 Many of those questions can be answered by the Puppet Enterprise Dashboard, but
-what if your organization doesn't use Puppet Enterprise or decides to stop
-paying for Enterprise? Many of these questions can also be answered by PuppetDB,
-but what if your organization manages too many nodes and PuppetDB can't scale to
-your needs?
+what if your organization doesn't use Puppet Enterprise?  You can also answer
+some of these questions with PuppetDB, but what if your organization manages too
+many nodes and PuppetDB can't scale to your needs?
 
 We recently built an advanced reporting solution that utilizes [Google
 BigQuery][bq] and [Data Studio][datastudio] to answer these questions, and that
@@ -109,8 +108,8 @@ able to offer. Do you have a problem that doesn't fit neatly into one of the
 offerings above? Contact us and let's start the conversation. Our most impactful
 engagements have started this way, and we'd be happy to discuss your goals!
 
-[puppetservices]: https://openinfrastructure.co/services/puppet/
-[ic]: https://www.openinfrastructure.co/services/puppet/incremental-rollouts/
+[puppetservices]: {{< ref "services/puppet" >}}
+[ic]: {{< ref "services/puppet/incremental-rollouts" >}}
 [bq]: https://cloud.google.com/bigquery
 [datastudio]: https://datastudio.withgoogle.com/
 [forge]: https://forge.puppet.com/
