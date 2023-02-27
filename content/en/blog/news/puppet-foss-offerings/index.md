@@ -1,5 +1,5 @@
 ---
-title:  "New Puppet Service Offerings!"
+title:  "New Puppet Service Offerings"
 date:   2023-02-23 12:00:00
 description: "We offer dependable Puppet expertise to help you meet your goals."
 authors: ["Gary Larizza"]
@@ -7,7 +7,7 @@ authors: ["Gary Larizza"]
 
 **TL;DR: Open Infrastructure Services (OIS) is proud to announce
 [several new Puppet service offerings][puppetservices] available now to
-organizations of any size!**
+organizations of any size.**
 
 The commonality that unites the three of us at Open Infrastructure Services
 (OIS) is the fact that at some point in time, we all were members of Puppet
@@ -16,7 +16,7 @@ solve the most complex customer issues, and together we have more than 25 years
 of experience in designing, customizing, and troubleshooting Puppet deployments.
 It's that experience that allows us to solve real world problems in a
 predictable and timely manner, and we value our reputation of being able to
-deliver for our customers!
+deliver for our customers.
 
 That's why today we're proud to announce [several new Puppet service
 offerings][puppetservices] available now to organizations of any size!  While
@@ -39,7 +39,7 @@ reported for an entire year.
 
 The existing tools to solve this problem aren't the greatest, which is why we
 had to develop a custom solution. We'd be happy to talk through the specifics
-with your organization; contact us today!
+with your organization; contact us today.
 
 Advanced Reporting
 ---
@@ -60,9 +60,10 @@ many nodes and PuppetDB can't scale to your needs?
 We recently built an advanced reporting solution that utilizes [Google
 BigQuery][bq] and [Data Studio][datastudio] to answer these questions, and that
 solution has scaled to hundreds of thousands of managed nodes (with data from
-millions of Puppet runs per day)!
+millions of Puppet runs per day).
 
-We're available to tailor a reporting solution to the needs of your organization; contact us and let's talk about your project goals!
+We're available to tailor a reporting solution to the needs of your
+organization; contact us and let's talk about your project goals.
 
 Open Source Puppet Support
 ---
@@ -72,11 +73,11 @@ Free and open-source software (FOSS) is a bedrock principle at OIS - it puts the
 FOSS version of Puppet have limited options when it comes to support plans. That's
 why we offer first class support for ALL Puppet users, regardless of whether you're
 using the Enterprise or FOSS editions. It doesn't matter how old your code is or
-what your server stack looks like, we are here to help!
+what your server stack looks like, we are here to help.
 
 Whether you have a specific problem that needs a solution, or simply need the
 ability to contact the experts when problems arise, we can craft a support plan
-to fit your needs. Contact us today and let's discuss your options!
+to fit your needs. Contact us today and let's discuss your options.
 
 Module Development
 ---
@@ -99,14 +100,14 @@ been following (and creating) best practices through to today. We literally
 new module from scratch, or adding new functionality to existing code, we are
 here to help you work smarter, not harder.
 
-Contact us today and let's talk Puppet modules!
+Contact us today and let's talk Puppet modules.
 
 ---
 
 As we said above, this is not an exhaustive list of every Puppet service we're
 able to offer. Do you have a problem that doesn't fit neatly into one of the
 offerings above? Contact us and let's start the conversation. Our most impactful
-engagements have started this way, and we'd be happy to discuss your goals!
+engagements have started this way, and we'd be happy to discuss your goals.
 
 [puppetservices]: {{< ref "services/puppet" >}}
 [ic]: {{< ref "services/puppet/incremental-rollouts" >}}
