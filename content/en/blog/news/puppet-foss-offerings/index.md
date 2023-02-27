@@ -1,13 +1,13 @@
 ---
-title:  "New Puppet Service Offerings"
-date:   2023-02-23 12:00:00
-description: "We offer dependable Puppet expertise to help you meet your goals."
+title: "New Puppet Service Offerings"
+date: 2023-02-23 12:00:00
+description: "Take advantage of our extensive Puppet expertise to achieve your goals."
 authors: ["Gary Larizza"]
 ---
 
 **TL;DR: Open Infrastructure Services (OIS) is proud to announce
-[several new Puppet service offerings][puppetservices] available now to
-organizations of any size.**
+[several new Puppet service offerings][puppetservices] intended for customers of
+varying size, from hundreds to millions of managed nodes.**
 
 The commonality that unites the three of us at Open Infrastructure Services
 (OIS) is the fact that at some point in time, we all were members of Puppet
@@ -19,68 +19,59 @@ predictable and timely manner, and we value our reputation of being able to
 deliver for our customers.
 
 That's why today we're proud to announce [several new Puppet service
-offerings][puppetservices] available now to organizations of any size!  While
-it's not an exhaustive list, it does comprise some of the most popular requests
-we've received in the past 6 years.
+offerings][puppetservices] available now to organizations of any size! While
+it's not an exhaustive list, it does comprise some of the most popular features
+we've built in the past 6 years.
 
-Safer and Slower Puppet Deployments
----
+## Safer Puppet Changes
 
-Are Puppet code changes rolling out too fast for your organization? Have you
-experienced service degradation due to a Puppet code change that affected all of
-your managed nodes at once? Are you looking for a way to quarantine a Puppet
-code change to a limited grouping of nodes, and then slowly and safely release
-it to the rest of your managed fleet?
+Are Puppet changes causing incidents in your organization? Have you experienced
+service outages due to a Puppet code change which rolls out too quickly to
+control? Are you looking for a proven method to target a small group of
+nodes for a risky change, validate the results, then safely release it to the
+rest of your managed fleet?
 
-This is a problem that all large Puppet deployments will eventually encounter,
-and we recently [designed a solution][ic] for a social media company that allowed
-them to reduce Puppet-related incidents from at least one per-month, to zero
-reported for an entire year.
+This is a problem all large Puppet deployments need to solve, and we recently
+[designed a solution][ic] for a large social media company that allowed them to
+reduce Puppet-related incidents from at least one per-month, to zero reported
+for more than an entire year.
 
-The existing tools to solve this problem aren't the greatest, which is why we
-had to develop a custom solution. We'd be happy to talk through the specifics
-with your organization; contact us today.
+The existing tools to solve this problem are ineffective at the scale of
+hundreds of thousands to millions of managed nodes. As a result, we developed a
+new, effective solution which:
 
-Advanced Reporting
----
+1.  Unlocks the ability to perform canary analysis on Puppet changes.
+2.  Reduces engineering time by adding scheduling policies to risky changes.
+3.  Leverages cloud native advancements in observability and traffic management.
+4.  Uses the same workflows as are used for application level container rollouts.
 
-Do you have problems answering some of these questions with your Puppet deployment?
+We'd love to share how our solution reduces the risk of production changes.
+Contact us today to learn more.
 
-* I pushed up a recent code change - when was that change enforced by all my managed nodes?
-* Did the code change occur successfully, or were there any resource failures?
-* We're having an outage - have there been any Puppet resource changes or failures in the past 30 minutes?
-* What are the most frequent resource failures being experienced during a time period?
-* Are any nodes experiencing compilation failures and thus are no longer enforcing resource changes?
+## Advanced Reporting
 
-Many of those questions can be answered by the Puppet Enterprise Dashboard, but
-what if your organization doesn't use Puppet Enterprise?  You can also answer
-some of these questions with PuppetDB, but what if your organization manages too
-many nodes and PuppetDB can't scale to your needs?
+Does your organization struggle with these questions about production changes?
 
-We recently built an advanced reporting solution that utilizes [Google
-BigQuery][bq] and [Data Studio][datastudio] to answer these questions, and that
-solution has scaled to hundreds of thousands of managed nodes (with data from
-millions of Puppet runs per day).
+- When was a recent production change enforced on all managed nodes?
+- Was the production change successful or were there failures?
+- Was a recent Puppet change a contributing factor to a production incident?
+- What are the most common resource failures across teams?
+- Are nodes no longer being managed at all?
+
+Many of these questions can be answered by the Puppet Enterprise Dashboard, but
+what if your organization doesn't use Puppet Enterprise or has outgrown Puppet
+Enterprise? PuppetDB is open source and may help at smaller scales, but what if
+the number of nodes in your organization exceeds PuppetDB's limits?
+
+We recently built an advanced big data reporting solution using [BigQuery][bq]
+and [Data Studio][datastudio] to answer these questions. This solution worked
+well in production, scaling to hundreds of thousands of managed nodes and
+millions of Puppet run reports per day.
 
 We're available to tailor a reporting solution to the needs of your
 organization; contact us and let's talk about your project goals.
 
-Open Source Puppet Support
----
-
-Free and open-source software (FOSS) is a bedrock principle at OIS - it puts the
-"Open" in "Open Infrastructure!" We also understand that customers using the
-FOSS version of Puppet have limited options when it comes to support plans. That's
-why we offer first class support for ALL Puppet users, regardless of whether you're
-using the Enterprise or FOSS editions. It doesn't matter how old your code is or
-what your server stack looks like, we are here to help.
-
-Whether you have a specific problem that needs a solution, or simply need the
-ability to contact the experts when problems arise, we can craft a support plan
-to fit your needs. Contact us today and let's discuss your options.
-
-Module Development
----
+## Module Development
 
 The [Puppet Forge][forge] has grown to contain thousands of Puppet modules
 managing as many applications and technologies, but it never seems to have the
@@ -101,6 +92,19 @@ new module from scratch, or adding new functionality to existing code, we are
 here to help you work smarter, not harder.
 
 Contact us today and let's talk Puppet modules.
+
+## Open Source Puppet Support
+
+Free and open-source software (FOSS) is a bedrock principle at OIS - it puts the
+"Open" in "Open Infrastructure!" We also understand that customers using the
+FOSS version of Puppet have limited options when it comes to support plans. That's
+why we offer first class support for ALL Puppet users, regardless of whether you're
+using the Enterprise or FOSS editions. It doesn't matter how old your code is or
+what your server stack looks like, we are here to help.
+
+Whether you have a specific problem that needs a solution, or simply need the
+ability to contact the experts when problems arise, we can craft a support plan
+to fit your needs. Contact us today and let's discuss your options.
 
 ---
 
