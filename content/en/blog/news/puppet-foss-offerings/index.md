@@ -46,7 +46,6 @@ new, effective solution which:
 4.  Uses the same workflows as are used for application level container rollouts.
 
 We'd love to share how our solution reduces the risk of production changes.
-Contact us today to learn more.
 
 ## Advanced Reporting
 
@@ -69,7 +68,7 @@ well in production, scaling to hundreds of thousands of managed nodes and
 millions of Puppet run reports per day.
 
 We're available to tailor a reporting solution to the needs of your
-organization; contact us and let's talk about your project goals.
+organization.
 
 ## Module Development
 
@@ -91,8 +90,6 @@ been following (and creating) best practices through to today. We literally
 new module from scratch, or adding new functionality to existing code, we are
 here to help you work smarter, not harder.
 
-Contact us today and let's talk Puppet modules.
-
 ## Open Source Puppet Support
 
 Free and open-source software (FOSS) is a bedrock principle at OIS - it puts the
@@ -104,17 +101,19 @@ what your server stack looks like, we are here to help.
 
 Whether you have a specific problem that needs a solution, or simply need the
 ability to contact the experts when problems arise, we can craft a support plan
-to fit your needs. Contact us today and let's discuss your options.
+to fit your needs.
 
 ---
 
 As we said above, this is not an exhaustive list of every Puppet service we're
 able to offer. Do you have a problem that doesn't fit neatly into one of the
-offerings above? Contact us and let's start the conversation. Our most impactful
-engagements have started this way, and we'd be happy to discuss your goals.
+offerings above? [Contact us and let's start the conversation][contact]. Our
+most impactful engagements have started this way, and we'd be happy to discuss
+your goals.
 
 [puppetservices]: {{< ref "services/puppet" >}}
 [ic]: {{< ref "services/puppet/incremental-rollouts" >}}
+[contact]: {{< ref "/contact" >}}
 [bq]: https://cloud.google.com/bigquery
 [datastudio]: https://datastudio.withgoogle.com/
 [forge]: https://forge.puppet.com/
