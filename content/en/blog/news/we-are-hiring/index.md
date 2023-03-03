@@ -3,6 +3,7 @@ date:   2018-04-18 12:00:00
 title:  "Help Wanted"
 description: "We're Hiring!"
 authors: ["Jeff McCune"]
+aliases: ["/news/help-wanted/"]
 resources:
   - src: "**now-hiring*.jpg"
     title: "Now Hiring"
