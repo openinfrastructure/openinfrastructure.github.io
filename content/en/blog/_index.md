@@ -1,6 +1,7 @@
 ---
 title: "OIS Blog"
 linkTitle: "Blog"
+aliases: ["/news"]
 menu:
   main:
     weight: 30

@@ -3,6 +3,7 @@ date:   2016-08-21 12:48:00
 title:  "Puppet Enterprise Node Classification Backup & Restore with ncio"
 linkTitle: "Puppet Enterprise Node Classification Backup & Restore with ncio"
 description: "Utility to backup and restore PE Node Classification data"
+aliases: ["/news/puppet-node-classifier-backup-restore/"]
 authors: ["Jeff McCune"]
 ---
 

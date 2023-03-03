@@ -3,6 +3,7 @@ title:  "Welcome Gary Larizza"
 date:   2017-10-21 12:06:00
 description: "Gary Larizza joins Open Infrastructure Services"
 authors: ["Jeff McCune"]
+aliases: ["/news/gary-joins-openinfrastructure/"]
 resources:
 - src: "**gary*.jpg"
   title: "Gary Larizza"

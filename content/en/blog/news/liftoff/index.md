@@ -2,6 +2,7 @@
 date:   2015-10-06 13:39:00
 title:  "Lift Off!"
 authors: ["Jeff McCune"]
+aliases: ["/news/lift-off/"]
 resources:
   - src: "**liftoff*.png"
     title: "Lift off!"

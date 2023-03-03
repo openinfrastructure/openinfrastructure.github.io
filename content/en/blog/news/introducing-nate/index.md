@@ -3,6 +3,7 @@ title:  "Welcome Nate McCurdy"
 date:   2018-12-03 12:00:00
 description: "Nate McCurdy joins Open Infrastructure Services"
 authors: ["Jeff McCune"]
+aliases: ["/news/nate-mccurdy"]
 resources:
 - src: "**nate*.jpg"
   title: "Nate McCurdy"
