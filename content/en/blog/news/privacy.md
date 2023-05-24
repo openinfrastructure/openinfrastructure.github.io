@@ -1,7 +1,7 @@
 ---
 date: 2023-05-23 12:00:00
 title: "Privacy Policy"
-linkTitle: "Privacy"
+linkTitle: "Privacy Policy"
 aliases: ["/privacy/"]
 authors: ["Jeff McCune"]
 ---
@@ -124,7 +124,7 @@ We do not knowingly solicit information from or market to children under the age
 
 ## Notice to All Non-U.S. Residents
 
-Our servers are located in the U.S. If you are located outside of the U.S., please be aware that any information provided to us, including Personal Information, will be transferred from your country of origin to the U.S. Open Infrastructure Services transfers and processes data, including the data transfers under the EU-U.S. Privacy Shield, the Swiss-U.S. Privacy Shield, the UK and EU GDPR, and in accordance with additional applicable laws and regulations.
+Our servers are located in the U.S. If you are located outside of the U.S., please be aware that any information provided to us, including Personal Information, will be transferred from your country of origin to the U.S. Open Infrastructure Services transfers and processes data, including the data transfers under the UK and EU GDPR, and in accordance with additional applicable laws and regulations.
 
 ## Notice for California Residents
 
