@@ -1,6 +1,6 @@
 ---
-title: Engineering Services
-linkTitle: Services
+title: Holos Platform
+linkTitle: Holos
 menu:
   main:
     weight: 20
@@ -9,3 +9,5 @@ cascade:
     _target:
       path: "/**"
 ---
+
+Coming soon.
