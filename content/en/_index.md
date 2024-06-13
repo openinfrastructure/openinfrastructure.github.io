@@ -1,7 +1,7 @@
-+++
-title = "Open Infrastructure Services LLC"
-linkTitle = "OIS"
-+++
+---
+title: "Open Infrastructure Services LLC"
+linkTitle: "OIS"
+---
 
 {{< blocks/cover title="Open Infrastructure Services LLC" image_anchor="top" height="full" color="primary" >}}
 <div class="mx-auto">
