@@ -208,6 +208,7 @@ enable = false
   [module.hugoVersion]
     extended = true
     min = "0.127.0"
+    max = "0.127.0"
   [[module.imports]]
     path = "github.com/google/docsy"
     disable = false
