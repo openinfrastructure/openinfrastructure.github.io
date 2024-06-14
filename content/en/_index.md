@@ -1,7 +1,7 @@
-+++
-title = "Open Infrastructure Services LLC"
-linkTitle = "OIS"
-+++
+---
+title: "Open Infrastructure Services LLC"
+linkTitle: "OIS"
+---
 
 {{< blocks/cover title="Open Infrastructure Services LLC" image_anchor="top" height="full" color="primary" >}}
 <div class="mx-auto">
@@ -9,28 +9,26 @@ linkTitle = "OIS"
 </div>
 <div class="mx-auto">
   <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/about" >}}">
-    About<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+    About <i class="fas fa-arrow-alt-circle-right ml-2"></i>
   </a>
   <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/services" >}}">
-    Services<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+    Services <i class="fas fa-arrow-alt-circle-right ml-2"></i>
   </a>
   <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/blog" >}}">
-    News<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+    News <i class="fas fa-arrow-alt-circle-right ml-2"></i>
   </a>
   <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/contact" >}}">
-    Contact<i class="fas fa-arrow-alt-circle-right ml-2"></i>
+    Contact <i class="fas fa-arrow-alt-circle-right ml-2"></i>
   </a>
 </div>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
 
-{{< blocks/section color="primary" >}}
+{{< blocks/section color="primary" type="row" >}}
 {{% blocks/feature icon="fa-cloud" title="Cloud Architecture" %}}
 Moving your private datacenter workloads to the cloud? We're here to help with our experience building automation tools for Google Cloud Platform and Amazon Web Services.
-
 {{% /blocks/feature %}}
-
 
 {{% blocks/feature icon="fa-thin fa-circle-nodes" title="Puppet Software Development" url="/services" %}}
 Our world-class professionals were founding members of the Puppet and DevOps community.  Leverage our experience to refactor your Puppet code base and scale your infrastructure to millions of nodes.
