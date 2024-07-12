@@ -1,0 +1,8 @@
+.hero {
+    background-image: url("/static/img/background.jpg");
+}
+
+/* Need a lighter color for the site header when using a dark background */
+.hero__title {
+    color: #ffffff;
+}
