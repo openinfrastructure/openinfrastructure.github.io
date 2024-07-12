@@ -1,6 +1,6 @@
 {
-  "name": "new-oi-website",
-  "version": "0.0.0",
+  "name": "openinfrastructure.github.io",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
